@@ -69,7 +69,7 @@ const galleryItems = images
   .map(({ preview, original, description }) => {
     return `
     <li class="gallery-item">
-      <a class="gallery-link" href="${original}">
+      <a class="gallery-link" href="javascript:void(0);">
         <img
           class="gallery-image"
           src="${preview}"
